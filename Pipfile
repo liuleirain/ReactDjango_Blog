@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.doubanio.com/simple"
+verify_ssl = true
+
+[dev-packages]
+autopep8 = "*"
+
+[packages]
+django = "*"
+django-cors-headers = "*"
+django-summernote = "*"
+djangorestframework = "*"
+pillow = "*"
+psycopg2 = "*"
+psycopg2-binary = "*"
+
+[requires]
+python_version = "3.8"
